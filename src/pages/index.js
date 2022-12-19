@@ -1,0 +1,5 @@
+export {default as About} from './About'
+export {default as Blog} from './Blog'
+export {default as Planets} from './Planets'
+export {default as Project} from './Blog'
+export {default as Contacts} from './Contacts'
