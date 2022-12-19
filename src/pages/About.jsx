@@ -4,12 +4,12 @@ import Item from '../shared/Item';
 import SectionTitle from '../shared/SectionTitle'
 import imgUrl from '../assets/space6.jpg'
 const desc =
-  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis tenetur neque non voluptatum dolore ducimus saepe, nesciunt repellendus veniam nisi.";
+  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis tenetur neque Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis tenetur neque non voluptatum dolore ducimus saepe, nesciunt repellendus veniam nisi voluptatum dolore ducimus saepe, nesciunt repellendus veniam nisi.";
 
 const About = () => {
   return (
     <div className="about" id='about'>
-      <div className=" container px-5 mx-auto py-[3rem] text-white space-y-8">
+      <div className=" container px-5 mx-auto py-[3rem] text-white space-y-8 text-center">
         <SectionTitle title='history of exploration'/>
         <Item desc={desc} imgUrl={ imgUrl} />
 
